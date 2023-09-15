@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Akhir</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="AlfanFarhanHadi_TA_JS.js"></script>
+    <style type="text/css">
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .search-container {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 75%;
+        }
+
+        #keyword-input, #search-button {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        #keyword-input {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        #search-button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        #search-button:hover {
+            background-color: #0056b3;
+        }
+
+        #gif-list {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #gif-list img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pencarian GIF Giphy</h1>
+    <div class="search-container">
+        <input type="text" id="keyword-input" placeholder="Masukkan kata kunci">
+        <button id="search-button">Cari GIF</button>
+    </div>
+    <div id="gif-list"></div>
+</body>
+</html>
